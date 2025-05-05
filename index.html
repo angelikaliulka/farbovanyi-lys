@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Фарбований лис</title>
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Balsamiq Sans', cursive;
+      background-color: #8FBD3F;
+      text-align: center;
+      color: #F4F1E8;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 28pt;
+      margin-bottom: 12px;
+    }
+
+    .title-image {
+      width: 70%;
+      max-width: 400px;
+      height: auto;
+      margin-bottom: 12px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    p {
+      font-size: 18pt;
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 80%;
+      max-width: 300px;
+      height: auto;
+      margin-bottom: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    audio {
+      width: 80%;
+      max-width: 400px;
+      border-radius: 12px;
+      margin: 20px auto;
+      display: block;
+    }
+
+    audio::-webkit-media-controls-panel {
+      background-color: #F4F1E8;
+      border-radius: 12px;
+    }
+
+    audio::-webkit-media-controls-play-button {
+      background-color: #158FCF;
+      border-radius: 50%;
+    }
+
+    audio::-webkit-media-controls-play-button:hover {
+      background-color: #3276B7;
+    }
+
+  </style>
+</head>
+<body>
+
+  <img src="text.png" alt="Фарбований лис" class="title-image">
+  <img src="fox.png" alt="Зображення лиса">
+  <p>Слухай казку та розмальовуй!</p>
+  <audio controls>
+    <source src="audio.m4a" type="audio/mpeg">
+    Ваш браузер не підтримує аудіо.
+  </audio>
+
+</body>
+</html>
